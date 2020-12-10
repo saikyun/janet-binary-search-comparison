@@ -1,5 +1,5 @@
 # janet-binary-search-comparison
-Comparing the performance of multiple implementations of (binary search)[https://en.wikipedia.org/wiki/Binary_search_algorithm].
+Comparing the performance of multiple implementations of [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
 ## Try it
 ```

@@ -35,4 +35,4 @@ I figured I might as well try it in c, and it seems to shave off 10-20% -- I gue
 
 ### 5. native (int)
 
-This one cheats a bit by not being as generic as 1-4. 1-4 allows one to send a single arity function to do the comparison (e.g. `(comp |(:x $) (partial compare 4))`), while this solution just takes an int and compares it directly to the elements of an array. So, if you have a sorted array of ints you can go 100% faster.
+This one cheats a bit by not being as generic as 1-4. 1-4 allows one to send a single arity function to do the comparison (e.g. `(comp |(:x $) (partial compare 4))`), while this solution just takes an int and compares it directly to the elements of an array. So, if you have a sorted array of ints you can go 80% faster.

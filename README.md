@@ -16,6 +16,18 @@ native (int): 0.0539043 seconds
 
 ## Notes
 
+### Docstring for 1-4
+```
+Binary searches sorted array `vs` using single arity function `c`.
+`c` is called on elements of `vs`, and is expected to return `-1`, `0` or `1` (like `compare`).
+Returns index of match.
+If an exact match can't be found, return the closest index, rounded upwards.
+
+(binary-search-closest [0 1 2] (partial compare 1)) #=> 1
+(binary-search-closest [0 1 2] (partial compare 2)) #=> 2
+(binary-search-closest [0 1 2] (partial compare 1.5)) #=> 2
+```
+
 ### 1. recursive (array/slice)
 
 My first implementation, which uses `array/slice` to cut the array in half. It's also recursive.
